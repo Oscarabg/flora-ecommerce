@@ -1,0 +1,447 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.header-container {
+    padding: 15px 3%;
+}
+
+nav .lists-header-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.logo {
+    font-size: 1.7rem;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    text-decoration: none;
+    color: #222;
+    list-style: none;
+}
+
+.logo span {
+    color: #8bc34a;
+}
+
+.list-header-item {
+    font-size: 1.3rem;
+    margin-left: -20px;
+}
+
+.list-header-link {
+    text-decoration: none;
+    color: #222;
+    position: relative;
+}
+
+.list-header-link span {
+    color: #8bc34a;
+    position: absolute;
+    top: 0px;
+    left: -29px;
+}
+
+/* article de container de ol */
+.article-container-ul {
+    margin-top: 10px;
+    background: #cad2c5;
+    padding: 20px 4%;
+}
+
+.lists-items-rows {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.list-item-col span {
+    margin-right: 8px;
+    font-size: 1.5rem;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    color: #333;
+}
+
+.list-item-bg-color {
+    background: #8bc34a;
+    font-size: 1.3rem;
+    font-family: "Merriweather", serif;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.list-item-col-link-bg {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3rem;
+    font-family: "Merriweather", serif;
+    cursor: pointer;
+}
+
+.list-item-bg-color span {
+    margin-right: 8px;
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.list-item-col-link {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #333;
+    cursor: pointer;
+}
+
+/* section de formulaire */
+.section-container-forms {
+    margin-top: 10px;
+    padding: 10px 1.6%;
+}
+
+.section-container-form {
+    margin-top: 10px;
+}
+
+.title-card-1 {
+    font-size: 1.3rem;
+    font-family: "Merriweather", serif;
+    color: #222;
+    cursor: pointer;
+}
+
+.span-card-1 {
+    background: #8bc34a;
+    color: #fff;
+    padding: 2px 12px;
+    border-radius: 3px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.article-form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.article-col {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    width: 600px;
+    margin-top: 0px;
+}
+
+.figure-col {
+    width: 310px;
+    margin-top: 16px;
+}
+
+.figure-col img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    cursor: pointer;
+}
+
+.input-user-select {
+    width: 400px;
+    margin-top: 8px;
+    padding: 10px;
+    outline: none;
+    cursor: pointer;
+    transition: 7ms ease;
+}
+
+.input-user-select:hover {
+    border: 2px dotted #333;
+}
+
+.label-col-1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    font-family: "Merriweather", serif;
+    cursor: pointer;
+}
+
+.input-col-sign {
+    margin-top: 20px;
+}
+
+.input-user-sign {
+    width: 400px;
+    margin-top: 8px;
+    padding: 10px;
+    outline: none;
+    cursor: pointer;
+    transition: 7ms ease;
+}
+
+.input-user-sign:hover {
+    border: 2px solid #333;
+}
+
+.label-col-sign {
+    font-size: 1.2rem;
+    font-family: "Merriweather", serif;
+    cursor: pointer;
+}
+
+.input-user-text {
+    width: 400px;
+    margin-top: 8px;
+    padding: 10px;
+    outline: none;
+    cursor: pointer;
+    transition: 7ms ease;
+}
+
+.input-user-text:hover {
+    border: 2px solid #333;
+}
+
+hr {
+    width: 73%;
+    font-size: 0.2rem;
+    color: #8bc34a;
+    margin-top: 50px;
+}
+
+/* section-container-forms-2 */
+.section-container-forms {
+    padding: 10px 2.6%;
+}
+
+.section-container-form-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.form-rows {
+    width: 600px;
+    margin-top: 20px;
+}
+
+.form-col-2 {
+    margin-top: 30px;
+}
+
+.label-col-2 {
+    color: #222;
+    font-size: 1.2rem;
+    font-family: "Merriweather", serif;
+}
+
+.input-col-2 {
+    width: 450px;
+    margin-top: 5px;
+    padding: 10px;
+    outline: none;
+    cursor: pointer;
+    transition: 7ms ease;
+}
+
+.input-col-2:hover {
+    border: 2px solid #333;
+}
+
+.sexe-input-hover {
+    transition: 7ms ease;
+}
+
+.sexe-input-hover:hover {
+    border: 2px dotted #333;
+}
+
+.required {
+    color: #fa1414;
+    margin-left: 4px;
+}
+
+.article-form-rows {
+    margin-top: 50px;
+}
+
+.title-produit-2 {
+    font-size: 1.2rem;
+    font-family: "Merriweather", serif;
+    color: #333;
+}
+
+.para-2 {
+    margin-top: 15px;
+    font-size: 1.1rem;
+    font-family: "Merriweather", serif;
+    color: #333;
+}
+
+.price {
+    font-size: 1rem;
+    font-family: "Merriweather", serif;
+    color: #444;
+}
+
+.link {
+    font-size: 1rem;
+    font-family: "Merriweather", serif;
+    text-decoration: none;
+    color: #333;
+}
+
+.hr {
+    width: 100%;
+}
+
+/* section-container-form-row-3 */
+.section-container-forms-3 {
+    padding: 40px 2.6%;
+}
+
+.section-container-form-row-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-rows-3 {
+    width: 45%;
+}
+
+.form-col-3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.label-col-3 {
+    font-size: 1.2rem;
+    font-family: "Merriweather", serif;
+    color: #333;
+}
+
+.input-col-3 {
+    margin-top: 8px;
+    padding: 10px;
+}
+
+/* section de reseaux */
+.section-footer-reseaux {
+    margin-top: 20px;
+    background-color: #FFE4E1;
+    padding-top: 20px;
+}
+
+.title-reseaux {
+    text-align: center;
+    font-size: 1.4rem;
+    color: #8bc34a;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 900;
+    font-weight: 500;
+}
+
+.footer-reseaux {
+    width: 100vw;
+    height: 150px;
+}
+
+.ul-reseaux-sociaux {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    padding-top: 30px;
+}
+
+.ul-reseaux-sociaux .list-reseaux {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 1.4rem;
+}
+
+.list-reseaux .list-reseaux-a {
+    color: #fff;
+}
+
+.section-conatiner-services {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 3%;
+    margin-top: -50px;
+}
+
+.article-services {
+    max-width: 300px;
+}
+
+.container-service {
+    width: 100%;
+}
+
+.title-services {
+    margin-top: 9px;
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+    color: #8bc34a;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.container-services .lists-items {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.lists-items .list-item .list-item-link {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.07rem;
+    font-family: "Nunito Sans", sans-serif;
+    line-height: 24px;
+}
+
+.paragraph-list {
+    color: #000;
+    font-size: 1.07rem;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.lists-items-row {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.list-item-link {
+    font-size: 2.3rem;
+    color: #8bc34a;
+}
+
+.footer-copyright {
+    background: #265073;
+    padding: 20px;
+}
+
+.text-copyright {
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 600;
+}

@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="../css/compte.css">
+   <title>Créer Compte</title>
+</head>
+
+<body>
+   <header class="header">
+      <a href="/index.html" class="logo"><span><i class="fa fa-pagelines icones-color-green" aria-hidden="true"></i>
+            <span>fleuri</span>Zen</span>
+      </a>
+      <nav class="navbar">
+         <ul class="ul-lists">
+            <li class="list-link"><a class="list-link-a" href=""><span><i
+                        class="fa fa-internet-explorer icones-color-green" aria-hidden="true"></i>
+                  </span>International</a></li>
+
+            <li class="list-link"><a class="list-link-a" href=""><span><i class="fa fa-eye icones-color-green"
+                        aria-hidden="true"></i> </span>Suivi de commande</a></li>
+
+            <li class="list-link"><a class="list-link-a" href=""><span><i class="fa fa-comment icones-color-green"
+                        aria-hidden="true"></i> </span>Contactez-nous</a></li>
+
+            <li class="list-link"><a class="list-link-a" href="../view/backOffice.html"><span><i
+                        class="fa fa-sign-in icones-color-green" aria-hidden="true"></i> </span>Se connecter /
+                  s'inscrire</a></li>
+         </ul>
+      </nav>
+   </header>
+   <main>
+      <section class="section-container">
+         <header class="header-container">
+            <nav class="nav-container">
+
+               <ul class="ul-container">
+                  <li class="link-item"><a class="link-item-a" href="../../index.html">Paqûes</a></li>
+                  <li class="link-item"><a class="link-item-a" href="">Anniversaire</a></li>
+
+                  <ul class="ul-items">
+                     <li class="link-item link-active"><a class="link-item-a" href="">Occasion<i
+                              class="fa fa-angle-down icones-down-layout" aria-hidden="true"></i></a></li>
+                     <li class="link-hidden">
+                        <ul class="link-hidden-items">
+                           <li class="link-hidden-item"><a class="link-item-a" href="">Mariage</a></li>
+                           <li class="link-hidden-item"><a class="link-item-a" href="">Naissance</a></li>
+                           <li class="link-hidden-item"><a class="link-item-a" href="">Amour</a></li>
+                        </ul>
+                     </li>
+                  </ul>
+
+                  <ul class="ul-items">
+                     <li class="link-item link-active"><a class="link-item-a" href="">Bouquets<i
+                              class="fa fa-angle-down icones-down-layout" aria-hidden="true"></i></a></li>
+                     <li class="link-hidden">
+                        <ul class="link-hidden-items">
+                           <li class="link-hidden-item"><a class="link-item-a" href="">Bouquet de fleurs</a></li>
+                           <li class="link-hidden-item"><a class="link-item-a" href="">Composition florale</a></li>
+                           <li class="link-hidden-item"><a class="link-item-a" href="">fleurs de saison</a></li>
+                           <li class="link-hidden-item"><a class="link-item-a" href="">fleurs et chocolat</a></li>
+                           <li class="link-hidden-item"><a class="link-item-a" href="">Rose éternel</a></li>
+                           <li class="link-hidden-item"><a class="link-item-a" href="">Fleurs séchées</a></li>
+                        </ul>
+                     </li>
+                  </ul>
+                  <li class="link-item"><a class="link-item-a" href="../view/plante.html">Plantes</a></li>
+
+                  <ul class="ul-items">
+                     <li class="link-item link-active"><a class="link-item-a" href="">Cadeaux<i
+                              class="fa fa-angle-down icones-down-layout" aria-hidden="true"></i></a></li>
+                     <li class="link-hidden">
+                        <ul class="link-hidden-items">
+                           <li class="link-hidden-item"><a class="link-item-a" href="">Fleurs et chocolat</a></li>
+                           <li class="link-hidden-item"><a class="link-item-a" href="">fleurs et gourmandises</a></li>
+                           <li class="link-hidden-item"><a class="link-item-a" href="">Fleurs et beauté</a></li>
+                           <li class="link-hidden-item"><a class="link-item-a" href="">Fleurs et décoration</a></li>
+                        </ul>
+                     </li>
+                  </ul>
+                  <ul class="ul-items">
+                     <li>
+                        <form action="" method="get">
+                           <input type="text" placeholder="Search.." class="input-search" name="search">
+                           <button class="btn-search" type="submit"><i class="fa fa-search"
+                                 aria-hidden="true"></i></button>
+                        </form>
+                     </li>
+                  </ul>
+               </ul>
+            </nav>
+         </header>
+      </section>
+
+      <section class="section-hero-3">
+         <figure class="figure-hero-3">
+            <h1 class="title-hero-3">Espace client</h1>
+         </figure>
+      </section>
+
+      <section class="section-article-container">
+         <h2 class="title-espace-3">Espace client, de quoi s'agit-il ?</h2>
+         <section class="section-row-3">
+            <article class="article-paragraph-3">
+               <p class="paragraph-3">Dès la validation de votre première commande sur notre site, nous vous affectons
+                  un code client et un mot de passe. Vous trouverez ces informations sur votre confirmation de commande
+                  (reçue par courrier électronique). Ce code client et ce mot de passe permettent d’entrer dans votre
+                  espace client.
+               </p>
+            </article>
+
+            <article class="article-paragraph-3">
+               <form action="/submit_form.php" method="POST">
+                  <div class="form-col-3">
+                     <label for="nom">Nom :</label>
+                     <input type="text" id="nom" name="nom" required>
+
+                     <label for="prenom">Prénom :</label>
+                     <input type="text" id="prenom" name="prenom" required>
+                  </div>
+
+                  <div class="form-col-3">
+                     <label for="date">Date de naissance</label>
+                     <input type="date" id="date" name="date" required>
+                  </div>
+
+                  <div class="form-col-3">
+                     <label for="email">Email :</label>
+                     <input type="email" id="email" name="email" required>
+                  </div>
+
+                  <div class="form-col-3">
+                     <label for="adress">Adresse :</label>
+                     <input type="text" id="adress" name="adress" required>
+                  </div>
+
+                  <div class="form-col-3">
+                     <label for="pays">Pays :</label>
+                     <input type="text" id="pays" name="pays" required>
+                  </div>
+
+                  <div class="form-col-3">
+                     <label for="postal">Code postal :</label>
+                     <input type="text" id="postal" name="postal" required>
+
+                     <label for="ville">Ville</label>
+                     <input type="text" id="ville" name="ville" required>
+                  </div>
+
+                  <div class="form-col-3">
+                     <label for="">Téléphone</label>
+                     <input type="text" id="ville" name="ville" required>
+                  </div>
+                  <button type="submit" class="btn-3">Créer mon compte</button>
+               </form>
+            </article>
+         </section>
+      </section>
+      <hr>
+
+      <section class="section-paragrah-3">
+         <article class="article-paragraph-3">
+            <p class="text-paragraph-3">Floratwx est le spécialiste de la livraison de fleurs à domicile. Nos
+               fleuristes, implantés dans plusieurs pays du monde, ont à coeur de vous fournir un service d'excellence
+               en livrant des fleurs fraîches, préparées avec soin et délicatesse. Un cadeau de dernière minute ? Sachez
+               que nos fleuristes s'engagent à vous livrer en moins de 4 heures, et ce, 7j/7 tous au long de l'année !
+               Sur notre boutique en ligne, vous découvrirez une grande sélection de bouquets réalisés par des artisans
+               fleuristes locaux. Alors, qu'attendez-vous pour vous faire plaisir ?</p>
+         </article>
+      </section>
+   </main>
+
+   <section class="section-footer-reseaux">
+      <h2 class="title-reseaux">Suivez-nous</h2>
+      <footer class="footer-reseaux">
+         <ul class="ul-reseaux-sociaux">
+            <li class="list-reseaux"><a class="list-reseaux-a" href=""><img src="../img/icone-facebook.png" alt=""></a></li>
+            <li class="list-reseaux"><a class="list-reseaux-a" href=""><img src="../img/icone-instagram.png" alt=""></a></li>
+            <li class="list-reseaux"><a class="list-reseaux-a" href="https://www.youtube.com/"><img src="../img/icone-youtube.png" alt=""></a></li>
+            <li class="list-reseaux"><a class="list-reseaux-a" href=""><img src="../img/icone-pinterest.png" alt=""></a></li>
+            <li class="list-reseaux"><a class="list-reseaux-a" href=""><img src="../img/icon-xbox-x.png" alt="" width="38px" height="38px"></a></li>
+        </ul>
+      </footer>
+
+      <footer class="footer-services">
+         <section class="section-conatiner-services">
+            <article class="article-services">
+               <div class="container-services">
+                  <h3 class="title-services">Services</h3>
+                  <ul class="lists-items">
+                     <li class="list-item"><a class="list-item-link" href="">A votre service depuis 40 ans</a></li>
+                     <li class="list-item"><a class="list-item-link" href="">Les avantages Floratwx</a></li>
+                     <li class="list-item"><a class="list-item-link" href="">Formules d'abonnements</a></li>
+                     <li class="list-item"><a class="list-item-link" href="">Faites livrer des fleurs à l'étranger</a>
+                     </li>
+                     <li class="list-item"><a class="list-item-link" href="">Nos solutions pour les entreprises</a></li>
+                     <li class="list-item"><a class="list-item-link" href="">Informations légales</a></li>
+                     <li class="list-item"><a class="list-item-link" href="">Droit de rétractation</a></li>
+                     <li class="list-item"><a class="list-item-link" href="">Informatique et Libertés</a></li>
+                     <li class="list-item"><a class="list-item-link" href="">Cookies</a></li>
+                     <li class="list-item"><a class="list-item-link" href="">Livraison Floratwx Premium</a></li>
+                  </ul>
+               </div>
+
+               <div class="container-services">
+                  <h3 class="title-services">Besoin d'aide ?</h3>
+                  <ul class="lists-items">
+                     <li class="list-item"><a class="list-item-link" href="">FAQ</a></li>
+                     <li class="list-item"><a class="list-item-link" href="">Nous contacter</a></li>
+                     <li class="list-item"><a class="list-item-link" href="">CGV</a></li>
+                     <li class="list-item"><a class="list-item-link" href="">Gestion de la Confidentialité</a></li>
+                     <li class="list-item"><a class="list-item-link" href="">Programme de fidélité</a></li>
+                  </ul>
+               </div>
+            </article>
+
+            <article class="article-services">
+               <div class="container-services">
+                  <h3 class="title-services">Côté Pratique</h3>
+                  <ul class="lists-items">
+                     <li class="list-item"><a class="list-item-link" href="">Suivi de livraison</a></li>
+                     <li class="list-item"><a class="list-item-link" href="">Chercher un produit | Index</a></li>
+                     <li class="list-item"><a class="list-item-link" href="">Trouver un fleuriste</a></li>
+                     <li class="list-item"><a class="list-item-link" href="">Blog</a></li>
+                     <li class="list-item"><a class="list-item-link" href="">Rejoindre le réseau Floratwx</a></li>
+                  </ul>
+               </div>
+
+               <div class="container-services">
+                  <h3 class="title-services">Gardons contact</h3>
+                  <ul class="lists-items">
+                     <li class="list-item"><a class="list-item-link" href="">Pour passer commande composez le
+                           07.65.89.56.25(service 0.15€/min + prix appel).</a></li>
+
+                     <li class="list-item"><a class="list-item-link" href="">Pour toutes informations sur votre
+                           commande, suivi de livraison, SAV ou modification de commande composez le 07.65.89.56.25</a>
+                     </li>
+                  </ul>
+               </div>
+            </article>
+
+            <article class="article-services">
+               <div class="container-services">
+                  <h3 class="title-services">Des fleurs à offrir</h3>
+                  <ul class="lists-items">
+                     <li class="list-item"><a class="list-item-link" href="">Livraison Fleurs Fête des Mères</a></li>
+                     <li class="list-item"><a class="list-item-link" href="">Bouquet de Fleurs Mariage</a></li>
+                  </ul>
+               </div>
+
+               <div class="container-services">
+                  <h3 class="title-services">Newsletter</h3>
+                  <ul class="lists-items">
+                     <p class="paragraph-list">
+                        Inscrivez-vous à notre newsletter et bénéficiez de 15% de remise
+                     <p>
+                        <li class="list-item"><a class="list-item-link" href="">M'inscrire</a></li>
+                  </ul>
+               </div>
+
+               <div class="container-services">
+                  <h3 class="title-services">Paiements acceptés</h3>
+                  <ul class="lists-items-row">
+                     <li class="list-item"><a class="list-item-link" href=""><img src="../img/icone-carte-visa-48.png" alt=""></a></li>
+                     <li class="list-item"><a class="list-item-link" href=""><img src="../img/icone-mastercard-48.png" alt=""></a></li>
+                     <li class="list-item"><a class="list-item-link" href=""><img src="../img/icone-paypal-48.png" alt="" width="43px" height="39px"></a></li>
+                  </ul>
+               </div>
+
+               <div>
+                  <ul class="lists-items-row">
+                     <li class="list-item"><a class="list-item-link" href=""><img src="../img/icone-amex-48.png" alt="" width="45px" height="40px"></a></li>
+                     <li class="list-item"><a class="list-item-link" href=""><img src="../img/icone-discord-48.png" alt=""></a></li>
+                     <li class="list-item"><a class="list-item-link" href=""><img src="../img/icone-jcb-48.png" alt=""></a></li>
+                  </ul>
+               </div>
+            </article>
+         </section>
+      </footer>
+   </section>
+
+   <footer class="footer-copyright">
+      <p class="text-copyright">&copy; 2024 - fleuriZen, tous droit réservés</p>
+   </footer>
+</body>
+
+</html>

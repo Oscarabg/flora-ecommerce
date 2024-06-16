@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/compte-destinateur.css">
+    <title>Page compte de destinateur</title>
+</head>
+
+<body>
+    <header class="header-container">
+        <nav>
+            <ul class="lists-header-items">
+                <li><a href="../../index.html" class="logo"><span><i class="fa fa-pagelines icones-color-green"
+                                aria-hidden="true"></i> <span>fleuri</span>Zen</span></a></li>
+                <li class="list-header-item"><a class="list-header-link" href=""><span><i class="fa fa-clock-o"
+                                aria-hidden="true"></i></span>Livraison rapide</a></li>
+                <li class="list-header-item"><a class="list-header-link" href=""><span><i class="fa fa-calendar"
+                                aria-hidden="true"></i></span>7 jours/7 /365 jours/ an</a></li>
+                <li class="list-header-item"><a class="list-header-link" href=""><span><i class="fa fa-map-o"
+                                aria-hidden="true"></i></span>
+                        Livraison dans le monde entier</a></li>
+                <li class="list-header-item"><a class="list-header-link" href=""><span><i class="fa fa-map-marker"
+                                aria-hidden="true"></i></span>
+                        Service clinets en France</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article class="article-container-ul">
+                <ul class="lists-items-rows">
+                    <li class="list-item-col"><span>1.</span><a href="" class="list-item-col-link">Produit</a></li>
+                    <li class="list-item-bg-color"><span>2.</span><a href="" class="list-item-col-link-bg">Informations
+                            et coordonnées</a></li>
+                    <li class="list-item-col"><span>3.</span><a href="" class="list-item-col-link">Récapitulation</a>
+                    </li>
+                </ul>
+            </article>
+        </section>
+
+        <section class="section-container-forms">
+            <section class="section-container-form">
+                <h2 class="title-card-1"><span class="span-card-1">1</span>Message</h2>
+                <article class="article-form-row">
+                    <form action="/action_page.php" class="form-col">
+                        <article class="article-col">
+                            <div class="input-select">
+                                <div>
+                                    <label for="cars" class="label-col-1">Occasion</label>
+                                    <select id="fleurs" name="fleurs" class="input-user-select" required>
+                                        <option value="amitié">Amitié</option>
+                                        <option value="amour">Amour</option>
+                                        <option value="anniversaire">Anniversaire</option>
+                                        <option value="mariage">Mariage</option>
+                                        <option value="bapteme">Bapteme</option>
+                                        <option value="fete de grande-mere">Fête des grands-mères</option>
+                                        <option value="fete de grand-pere">Fête des grand-pères</option>
+                                        <option value="fiancailles">Fiançailles</option>
+                                        <option value="sant-valentin">Sant-valentin</option>
+                                        <option value="voeux de bonheur">Xoeux de bonheur</option>
+                                        <option value="felicitation">Félicitations</option>
+                                        <option value="fetes de fin d'annes">fêtes de fin d'année</option>
+                                    </select>
+                                </div>
+
+                                <div class="input-col-sign">
+                                    <label for="signature" class="label-col-sign">Signature <span
+                                            class="required">*</span></label>
+                                    <input type="text" id="signature" name="signature" class="input-user-sign" required>
+                                </div>
+                            </div>
+
+                            <div class="text-message">
+                                <label for="" class="label-col-1">Votre message</label>
+                                <textarea name="" id="" rows="10" class="input-user-text"></textarea>
+                            </div>
+                        </article>
+                    </form>
+
+                    <figure class="figure-col">
+                        <img src="../img/fleur-distinateur.jpg" alt="">
+                    </figure>
+                </article>
+                <hr>
+            </section>
+        </section>
+
+        <section class="section-container-forms">
+            <h2 class="title-card-1"><span class="span-card-1">2</span>Coordonnées du destinataire </h2>
+            <form action="">
+                <section class="section-container-form-row">
+                    <div class="form-rows">
+                        <div class="form-col-2">
+                            <label for="nom" class="label-col-2">Civilité <span class="required">*</span></label>
+                            <select id="sexe" name="sexe" class="input-col-2 sexe-input-hover">
+                                <option value="selecteur une civilite">Selecteur une civilité</option>
+                                <option value="femme">Femme</option>
+                                <option value="homme">Homme</option>
+                            </select>
+                        </div>
+
+                        <div class="form-col-2">
+                            <label for="prenom" class="label-col-2">Prénom <span class="required">*</span></label>
+                            <input type="text" id="prenom" name="prenom" placeholder="prénom" class="input-col-2"
+                                required>
+                        </div>
+
+                        <div class="form-col-2">
+                            <label for="tel" class="label-col-2">Tél <span class="required">*</span></label>
+                            <input type="tel" id="telephone" name="telephone" placeholder="téléphone"
+                                class="input-col-2" required>
+                        </div>
+                    </div>
+
+                    <div class="form-rows">
+                        <div class="form-col-2">
+                            <label for="adresse" class="label-col-2">Adresse <span class="required">*</span></label>
+                            <input type="text" id="adresse" name="adresse" placeholder="adresse" class="input-col-2"
+                                required>
+                        </div>
+
+                        <div class="form-col-2">
+                            <label for="adresse" class="label-col-2">Adresse (suite) <span
+                                    class="required">*</span></label>
+                            <input type="text" id="adresse" name="adresse" placeholder="adresse (suite)"
+                                class="input-col-2" required>
+                        </div>
+
+                        <div class="form-col-2">
+                            <label for="postal" class="label-col-2">Code postal <span class="required">*</span></label>
+                            <input type="text" id="postal" name="postal" placeholder="code postal" class="input-col-2"
+                                required>
+                        </div>
+
+                        <div class="form-col-2">
+                            <label for="ville" class="label-col-2">Ville <span class="required">*</span></label>
+                            <input type="text" id="ville" name="ville" placeholder="ville" class="input-col-2" required>
+                        </div>
+
+                        <div class="form-col-2">
+                            <label for="pays" class="label-col-2">Pays <span class="required">*</span></label>
+                            <input type="text" id="pays" name="pays" placeholder="pays" class="input-col-2" required>
+                        </div>
+
+                        <div class="form-col-2">
+                            <label for="message" class="label-col-2">Infos utiles (complément d'adresse,
+                                digicode...)</label><span class="required">*</span>
+                            <textarea name="message" id="message" rows="6" placeholder="votre message"
+                                class="input-col-2"></textarea>
+                        </div>
+                    </div>
+
+                    <article class="article-form-rows">
+                        <h3 class="title-produit-2">Palmarosa </h3>
+                        <p class="para-2">Référence produit: WB83310
+                            Ce produit sera livré et remis en mains propres par un artisan fleuriste</p>
+
+                        <p class="para-2">Formule sélectionnée :</p>
+                        <i class="price">38,90€</i>
+
+                        <p class="para-2">Frais de livraison </p>
+                        <i class="price">12.3€</i>
+
+                        <p class="para-2">Montant total </p>
+                        <i class="price">51,85€</i>
+
+                        <p class="para-2"> Information de livraison :</p>
+
+                        <p class="para-2">Date : <strong>Vendredi 10 Mai 2024</strong></p>
+                        <a href="" class="link">(Modifier) Date :Vendredi 10 Mai 2024</a>
+
+                        <p class="para-2">Moment: <strong> Dans la journée (de 9h à 20h)</strong></p>
+
+                        <p class="para-2">Option(s) sélectionnée(s):</p>
+                        <a href="" class="link"> (Modifier)</a>
+                    </article>
+                </section>
+            </form>
+            <hr class="hr">
+        </section>
+        <section class="section-container-forms-3">
+            <h2 class="title-card-1"><span class="span-card-1">3</span>Coordonnées du destinataire </h2>
+            <form action="">
+                <section class="section-container-form-row-3">
+                    <div class="form-rows-3">
+                        <div class="form-col-3">
+                            <label for="nom" class="label-col-3">Civilité <span class="required">*</span></label>
+                            <select id="sexe" name="sexe" class="input-col-3 sexe-input-hover">
+                                <option value="selecteur une civilite">Selecteur une civilité</option>
+                                <option value="femme">Femme</option>
+                                <option value="homme">Homme</option>
+                            </select>
+                        </div>
+
+                        <div class="form-col-3">
+                            <label for="prenom" class="label-col-3">Nom <span class="required">*</span></label>
+                            <input type="text" id="nom" name="nom" placeholder="Nom" class="input-col-3" required>
+                        </div>
+
+                        <div class="form-col-3">
+                            <label for="prenom" class="label-col-3">Prénom <span class="required">*</span></label>
+                            <input type="text" id="prenom" name="prenom" placeholder="Prénom" class="input-col-3"
+                                required>
+                        </div>
+                    </div>
+
+                    <div class="form-rows-3">
+                        <div class="form-col-3">
+                            <label for="email" class="label-col-3">Email<span class="required">*</span></label>
+                            <input type="text" id="email" name="email" placeholder="E-mail" class="input-col-3"
+                                required>
+                        </div>
+
+                        <div class="form-col-3">
+                            <label for="telephone" class="label-col-3">Tél <span class="required">*</span></label>
+                            <input type="tel" id="telephone" name="telephone" placeholder="Téléphone"
+                                class="input-col-3" required>
+                        </div>
+
+                        <div class="form-col-3">
+                            <label for="postal" class="label-col-3">Entreprise<span class="required">*</span></label>
+                            <input type="text" id="entreprise" name="entreprise" placeholder="Entreprise"
+                                class="input-col-3" required>
+                        </div>
+                    </div>
+                </section>
+            </form>
+        </section>
+    </main>
+
+    <section class="section-footer-reseaux">
+        <h2 class="title-reseaux">Suivez-nous</h2>
+        <footer class="footer-reseaux">
+            <ul class="ul-reseaux-sociaux">
+                <li class="list-reseaux"><a class="list-reseaux-a" href=""><img src="../img/icone-facebook.png"
+                            alt=""></a></li>
+                <li class="list-reseaux"><a class="list-reseaux-a" href=""><img src="../img/icone-instagram.png"
+                            alt=""></a></li>
+                <li class="list-reseaux"><a class="list-reseaux-a" href="https://www.youtube.com/"><img
+                            src="../img/icone-youtube.png" alt=""></a></li>
+                <li class="list-reseaux"><a class="list-reseaux-a" href=""><img src="../img/icone-pinterest.png"
+                            alt=""></a></li>
+                <li class="list-reseaux"><a class="list-reseaux-a" href=""><img src="../img/icon-xbox-x.png" alt=""
+                            width="38px" height="38px"></a></li>
+            </ul>
+        </footer>
+
+        <footer class="footer-services">
+            <section class="section-conatiner-services">
+                <article class="article-services">
+                    <div class="container-services">
+                        <h3 class="title-services">Services</h3>
+                        <ul class="lists-items">
+                            <li class="list-item"><a class="list-item-link" href="">A votre service depuis 40 ans</a>
+                            </li>
+                            <li class="list-item"><a class="list-item-link" href="">Les avantages FleuriZen</a></li>
+                            <li class="list-item"><a class="list-item-link" href="">Formules d'abonnements</a></li>
+                            <li class="list-item"><a class="list-item-link" href="">Faites livrer des fleurs à
+                                    l'étranger</a></li>
+                            <li class="list-item"><a class="list-item-link" href="">Nos solutions pour les
+                                    entreprises</a></li>
+                            <li class="list-item"><a class="list-item-link" class="list-item-link" href="">Informations
+                                    légales</a></li>
+                            <li class="list-item"><a class="list-item-link" class="list-item-link" href="">Droit de
+                                    rétractation</a></li>
+                            <li class="list-item"><a class="list-item-link" class="list-item-link" href="">Informatique
+                                    et Libertés</a></li>
+                            <li class="list-item"><a class="list-item-link" href="">Cookies</a></li>
+                            <li class="list-item"><a class="list-item-link" href="">Livraison FleuriZen Premium</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="container-services">
+                        <h3 class="title-services">Besoin d'aide ?</h3>
+                        <ul class="lists-items">
+                            <li class="list-item"><a class="list-item-link" href="">FAQ</a></li>
+                            <li class="list-item"><a class="list-item-link" href="">Nous contacter</a></li>
+                            <li class="list-item"><a class="list-item-link" href="">CGV</a></li>
+                            <li class="list-item"><a class="list-item-link" href="">Gestion de la Confidentialité</a>
+                            </li>
+                            <li class="list-item"><a class="list-item-link" href="">Programme de fidélité</a></li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="article-services">
+                    <div class="container-services">
+                        <h3 class="title-services">Côté Pratique</h3>
+                        <ul class="lists-items">
+                            <li class="list-item"><a class="list-item-link" href="">Suivi de livraison</a></li>
+                            <li class="list-item"><a class="list-item-link" href="">Chercher un produit | Index</a></li>
+                            <li class="list-item"><a class="list-item-link" href="">Trouver un fleuriste</a></li>
+                            <li class="list-item"><a class="list-item-link" href="">Blog</a></li>
+                            <li class="list-item"><a class="list-item-link" href="">Rejoindre le réseau FleuriZen</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="container-services">
+                        <h3 class="title-services">Gardons contact</h3>
+                        <ul class="lists-items">
+                            <li class="list-item"><a class="list-item-link" href="">Pour passer commande composez le
+                                    07.65.89.56.25(service 0.15€/min + prix appel).</a></li>
+
+                            <li class="list-item"><a class="list-item-link" href="">Pour toutes informations sur votre
+                                    commande, suivi de livraison, SAV ou modification de commande composez le
+                                    07.65.89.56.25</a></li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="article-services">
+                    <div class="container-services">
+                        <h3 class="title-services">Des fleurs à offrir</h3>
+                        <ul class="lists-items">
+                            <li class="list-item"><a class="list-item-link" href="">Livraison Fleurs Fête des Mères</a>
+                            </li>
+                            <li class="list-item"><a class="list-item-link" href="">Bouquet de Fleurs Mariage</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="container-services">
+                        <h3 class="title-services">Newsletter</h3>
+                        <ul class="lists-items">
+                            <p class="paragraph-list">
+                                Inscrivez-vous à notre newsletter et bénéficiez de 15% de remise
+                            <p>
+                                <li class="list-item"><a class="list-item-link" href="">M'inscrire</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="container-services">
+                        <h3 class="title-services">Paiements acceptés</h3>
+                        <ul class="lists-items-row">
+                            <li class="list-item"><a class="list-item-link" href=""><img
+                                        src="../img/icone-carte-visa-48.png" alt=""></a></li>
+                            <li class="list-item"><a class="list-item-link" href=""><img
+                                        src="../img/icone-mastercard-48.png" alt=""></a></li>
+                            <li class="list-item"><a class="list-item-link" href=""><img
+                                        src="../img/icone-paypal-48.png" alt="" width="43px" height="39px"></a></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <ul class="lists-items-row">
+                            <li class="list-item"><a class="list-item-link" href=""><img src="../img/icone-amex-48.png"
+                                        alt="" width="45px" height="40px"></a></li>
+                            <li class="list-item"><a class="list-item-link" href=""><img
+                                        src="../img/icone-discord-48.png" alt=""></a></li>
+                            <li class="list-item"><a class="list-item-link" href=""><img src="../img/icone-jcb-48.png"
+                                        alt=""></a></li>
+                        </ul>
+                    </div>
+                </article>
+            </section>
+        </footer>
+    </section>
+
+    <footer class="footer-copyright">
+        <p class="text-copyright">&copy; 2024 - FleuriZen, tous droit réservés</p>
+    </footer>
+</body>
+
+</html>
